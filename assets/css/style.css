@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    width: auto;
+    font-family: sans-serif;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(6, 40, 60);
+    justify-content: space-between;
+    padding: 10px;
+    font-size:  20px;
+    color: white;
+}
+.header_left {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.header_left img{
+    width: 30%;
+}
+.header_right{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_right ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+ul{
+    list-style: none;
+}
+.welcome{
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+.curriculum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    size: 40%;
+    font-size: 30px;
+    
+
+}
+.curriculum img{
+    width: 30%;
+    margin: 5%;
+}
+
+.curriculum h2{
+    color: grey;
+}
+
+.programming{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.english{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.explain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer{
+    font-size: 20px;
+    text-align: center;
+    background-color:  rgb(6, 40, 60);
+    color: white;
+    padding: 10px;
+}
